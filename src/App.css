@@ -1,0 +1,136 @@
+/* Light Theme */
+.App.light {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.App.light h1 {
+  color: #1dbaf3;
+}
+
+.App.light .task-input input {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #0694b1;
+}
+
+.App.light .task-input button {
+  background-color: #007bff;
+  color: white;
+}
+
+.App.light .task {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #0a0a0a;
+}
+
+.App.light .done {
+  background-color: #c2cac2;
+}
+
+/* Dark Theme */
+.App.dark {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.App.dark h1 {
+  color: #2bf0f0;
+}
+
+.App.dark .task-input input {
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: #17c9ec;
+}
+
+.App.dark .task-input button {
+  background-color: #007bff;
+  color: white;
+}
+
+.App.dark .task {
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: #f34906;
+}
+
+.App.dark .done {
+  background-color: #05de46;
+}
+
+/* Common Styles */
+.task-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.task-input button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.task-text {
+  flex: 1;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-actions label {
+  margin-right: 10px;
+}
+
+.task-actions button {
+  margin-left: 5px;
+  padding: 3px 8px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  text-align: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
